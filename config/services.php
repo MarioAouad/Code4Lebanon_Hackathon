@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'numu' => [
+        'api_key' => env('NUMU_API_KEY'),
+        'base_url' => env('NUMU_API_BASE_URL', 'https://numu-survey.codeforlebanon.com/api'),
+    ],
+
 ];
